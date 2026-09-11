@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coventry HandyWorks | Reliable Local Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F172A;
+      --accent: #2563EB;
+      --whatsapp: #16A34A;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #334155;
+      --heading: #0F172A;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+    header { background: var(--primary); color: white; padding: 1.5rem 1rem; text-align: center; }
+    header h1 { font-size: 1.8rem; font-weight: 800; color: #F8FAFC; margin-bottom: 0.5rem; }
+    header p { color: #94A3B8; font-size: 1rem; }
+    .hero { background: white; padding: 2.5rem 1.5rem; text-align: center; border-bottom: 1px solid #E2E8F0; }
+    .hero h2 { color: var(--heading); font-size: 1.75rem; margin-bottom: 1rem; }
+    .hero p { max-width: 600px; margin: 0 auto 1.5rem; color: #475569; }
+    .cta-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.875rem 1.5rem; font-weight: 700; border-radius: 8px; text-decoration: none; font-size: 1rem; transition: transform 0.2s; width: 100%; max-width: 280px; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-call { background-color: var(--accent); color: white; }
+    .btn-whatsapp { background-color: var(--whatsapp); color: white; }
+    .container { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .section-title { font-size: 1.5rem; color: var(--heading); margin-bottom: 1.5rem; text-align: center; }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .card { background: var(--card-bg); padding: 1.5rem; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .card h3 { color: var(--heading); margin-bottom: 0.5rem; font-size: 1.2rem; }
+    .card p { color: #64748B; font-size: 0.95rem; }
+    .features { background: #EFF6FF; border-radius: 12px; padding: 2rem; margin-top: 3rem; }
+    .features ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .features li { font-weight: 600; color: #1E40AF; display: flex; align-items: center; gap: 0.5rem; }
+    footer { background: var(--primary); color: #94A3B8; text-align: center; padding: 2rem 1rem; margin-top: 4rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Coventry HandyWorks</h1>
+    <p>Dependable Local Work & Services in Coventry</p>
+  </header>
+
+  <section class="hero">
+    <h2>Need Reliable Help in Coventry?</h2>
+    <p>We provide trustworthy local workers for cleaning, gardening, labouring, and decorating. Fast response, fair prices, and quality work guaranteed.</p>
+    <div class="cta-buttons">
+      <a href="tel:07455400066" class="btn btn-call">📞 Call 07455 400066</a>
+      <a href="https://wa.me/447379615048" class="btn btn-whatsapp">💬 WhatsApp Us</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>🧹 Cleaning Services</h3>
+        <p>Domestic, deep cleaning, end of tenancy, and office cleaning around Coventry.</p>
+      </div>
+      <div class="card">
+        <h3>🌿 Gardening & Outdoor</h3>
+        <p>Lawn mowing, hedge trimming, garden clearance, and general yard maintenance.</p>
+      </div>
+      <div class="card">
+        <h3>🏗️ Construction & Labouring</h3>
+        <p>Reliable hands for heavy lifting, site assistance, clearance, and site prep.</p>
+      </div>
+      <div class="card">
+        <h3>🎨 Painting & Decorating</h3>
+        <p>Interior and exterior painting, touch-ups, and surface preparation.</p>
+      </div>
+    </div>
+
+    <div class="features">
+      <h2 class="section-title" style="margin-bottom: 1rem; color: #1E3A8A;">Why Choose Us?</h2>
+      <ul>
+        <li>✓ Fast & Reliable Service</li>
+        <li>✓ Coventry Local Team</li>
+        <li>✓ Free Quotations</li>
+        <li>✓ Affordable Hourly Rates</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Coventry HandyWorks. Serving Coventry and surrounding areas.</p>
+  </footer>
+
+</body>
+</html>
